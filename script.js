@@ -6,6 +6,12 @@
     document.getElementById("Nav").style.width = "0%";
     }
 
+    // url
+
+    function url() {
+        location.href="https://www.hay8833.com/?inviteCode=3128320";
+    }
+
     // ========================================================================================
     // Get the button
     let mybutton = document.getElementById("myBtn");
