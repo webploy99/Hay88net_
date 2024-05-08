@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hay88 -【Trang chủ chính thức】- Welcome to Hay88.com</title>
+    <title>Hay88.com|Xổ số,Tài xỉu,Xóc đĩa,Nổ hũ,Thể thao,Bắn cá,Đá gà</title>
     <link rel="icon" href="./images/icon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- maquee slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.js" integrity="sha512-JCRiGqeZmFnnSl3E68K2QpL8Pwvp4PKAqekg41WWUfjqCnKJEv1DvZJdi76q/XFt6VzZ3V4bCE51NkDQ+dOJKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
 <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><ion-icon name="chevron-up-circle-outline" class="fixed bottom-5 right-5 z-50 text-5xl text-yellow-500"></ion-icon></button>
-
-    <header class="header fixed top-0 left-0 w-full">
-        <div class="bg-[#3e87c7] tracking-wide p-3.5 z-40">
+    <!-- header dropdown when scroll -->
+    <header id="navbar" class="header w-full fixed top-0 left-0 z-50 duration-500">
+        <div class="bg-[#292e3b] tracking-wide p-3.5 z-40 opacity-90">
             <div class="max-w-[1080px] m-auto flex  justify-center md:justify-between items-center text-white font-semibold relative">
                 <div class="menu-icon absolute left-0 md:hidden text-2xl" onclick="OpenNav()">
                     <ion-icon name="menu-outline" class="border p-1 rounded-md"></ion-icon>
@@ -34,18 +35,17 @@
                         <div class="mt-10 md:hidden p-4 border-b">
                             <div class="border flex justify-center items-center">
                                 <input type="search" class="p-2 focus:outline-none w-56 font-normal shadow-inner" placeholder="Tiềm Kiếm ..." required />
-    
                                 <button class="bg-orange-500 text-white p-2">
                                     <ion-icon name="search" class="text-2xl flex justify-center items-center"></ion-icon>
                                 </button>
                             </div>
                         </div>
                         <!-- menu -->
-                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 mt-20 md:mt-0 hover:text-orange-300 duration-300">TRANG CHỦ</a></li>
-                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 hover:text-orange-300 duration-300">KHUYẾN MÃI</a></li>
-                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 hover:text-orange-300 duration-300">ĐĂNG KÝ</a></li>
-                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 hover:text-orange-300 duration-300">HƯỚNG DẪN</a></li>
-                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 hover:text-orange-300 duration-300">LIÊN HỆ</a></li>
+                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 mt-20 md:mt-0 hover:text-yellow-300 duration-300">TRANG CHỦ</a></li>
+                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 hover:text-yellow-300 duration-300">KHUYẾN MÃI</a></li>
+                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 hover:text-yellow-300 duration-300">ĐĂNG KÝ</a></li>
+                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 hover:text-yellow-300 duration-300">HƯỚNG DẪN</a></li>
+                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 hover:text-yellow-300 duration-300">LIÊN HỆ</a></li>
 
                         <!-- icon -->
                         <div class="md:hidden mt-1">
@@ -74,41 +74,103 @@
         </div>
     </header>
 
-    <div class="main mt-28 p-4">
-        <div class="">
-            
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-5 *:cursor-pointer *:bg-gradient-to-b *:from-indigo-600 *:via-yellow-600 *:to-pink-600 z-8">
-                <div onclick="url()" class="overflow-hidden">
-                    <img src="./images/icon1.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
-                    <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Xóc Đĩa</span>
+    <!-- header -->
+    <header class="w-full z-50">
+        <div class="bg-[#292e3b] tracking-wide p-3.5 z-40">
+            <div class="max-w-[1080px] m-auto flex  justify-center md:justify-between items-center text-white font-semibold relative">
+                <div class="menu-icon absolute left-0 md:hidden text-2xl" onclick="OpenNav()">
+                    <ion-icon name="menu-outline" class="border p-1 rounded-md"></ion-icon>
                 </div>
-                <div onclick="url()" class="overflow-hidden">
-                    <img src="./images/icon2.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
-                    <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Xiêu cấp Ace</span>
+    
+                <div onclick="url()" class="logo max-w-[200px] cursor-pointer">
+                    <img src="./images/logo.png">
                 </div>
-                <div onclick="url()" class="overflow-hidden">
-                    <img src="./images/icon3.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
-                    <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Tài Xiu MD5</span>
+
+                <nav id="Nav">
+                    <div class="md:hidden flex justify-end text-3xl p-2 font-bold w-full h-full bg-gray-600 opacity-80" onclick="CloseNav()">
+                        <ion-icon name="close"></ion-icon>
+                    </div>
+                    <ul class="h-full opacity-100 md:relative absolute top-0 z-50 flex flex-col gap-0 md:gap-5 md:flex-row md:p-5 text-[14.5px] bg-gray-50 text-gray-700 md:text-white md:bg-transparent divide-y divide-slate-200 *:py-4 *:md:py-0 *:md:border-none">
+                        <!-- search -->
+                        <div class="mt-10 md:hidden p-4 border-b">
+                            <div class="border flex justify-center items-center">
+                                <input type="search" class="p-2 focus:outline-none w-56 font-normal shadow-inner" placeholder="Tiềm Kiếm ..." required />
+                                <button class="bg-orange-500 text-white p-2">
+                                    <ion-icon name="search" class="text-2xl flex justify-center items-center"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- menu -->
+                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 mt-20 md:mt-0 hover:text-yellow-300 duration-300">TRANG CHỦ</a></li>
+                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 hover:text-yellow-300 duration-300">KHUYẾN MÃI</a></li>
+                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 hover:text-yellow-300 duration-300">ĐĂNG KÝ</a></li>
+                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 hover:text-yellow-300 duration-300">HƯỚNG DẪN</a></li>
+                        <li><a href=" https://www.hay8833.com/?inviteCode=3128320" class="p-5 md:p-0 hover:text-yellow-300 duration-300">LIÊN HỆ</a></li>
+
+                        <!-- icon -->
+                        <div class="md:hidden mt-1">
+                            <div class="p-4">
+                                <button onclick="url()">  <ion-icon name="logo-facebook" class="text-4xl text-blue-800"></ion-icon> </button>
+                                <button onclick="url()">  <ion-icon name="logo-twitter" class="text-2xl p-1 text-white bg-indigo-800 border rounded-full"></ion-icon> </button>
+                                <button onclick="url()">  <ion-icon name="mail-outline" class="text-2xl p-1 text-white bg-gray-900 border rounded-full"></ion-icon> </button>
+                                <button onclick="url()">  <ion-icon name="call-outline" class="text-2xl p-1 text-white bg-green-500 border rounded-full"></ion-icon> </button>
+                                <button onclick="url()">  <ion-icon name="logo-pinterest" class="text-4xl text-red-500"></ion-icon> </button>
+                                <button onclick="url()">  <ion-icon name="logo-youtube" class="text-2xl p-1 text-white bg-red-500 border rounded-full"></ion-icon> </button>
+                                <button onclick="url()">  <ion-icon name="navigate" class="text-2xl p-1 text-white bg-blue-500 border rounded-full"></ion-icon> </button>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+    
+                <div class="text-white hidden md:block text-[13.5px]">
+                    <button onclick="url()" class="bg-red-600 px-4 py-1.5 rounded-full hover:bg-red-800 duration-300">ĐĂNG KÝ</button>
+                    <button onclick="url()" class="bg-cyan-800 px-4 py-1.5 ml-2 rounded-full hover:bg-cyan-950 duration-300">ĐĂNG NHẬP</button>
                 </div>
-                <div onclick="url()" class="overflow-hidden">
-                    <img src="./images/icon4.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
-                    <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Heo Vàng</span>
-                </div>
-                <div onclick="url()" class="overflow-hidden">
-                    <img src="./images/icon5.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
-                    <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Tài Xiu</span>
-                </div>
-                <div onclick="url()" class="overflow-hidden">
-                    <img src="./images/icon6.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
-                    <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Chú Bò May Mắn</span>
-                </div>
-                <div onclick="url()" class="overflow-hidden">
-                    <img src="./images/icon7.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
-                    <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Tài Xỉu 3 Phút</span>
-                </div>
-                <div onclick="url()" class="overflow-hidden">
-                    <img src="./images/icon8.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
-                    <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Chú Chuột May Mắn</span>
+            </div>
+        </div>
+        <div class="text-white flex gap-3 justify-center font-semibold items-center md:hidden bg-gray-300 text-[13.5px]">
+            <button onclick="url()" class="bg-[#b20000] px-4 py-1.5 rounded-full border">ĐĂNG KÝ</button>
+            <button onclick="url()" class="bg-[#446084] px-4 py-1.5 rounded-full border">ĐĂNG NHẬP</button>
+        </div>
+    </header>
+
+    <div class="main p-4 shadow">
+        <div class="mt-5">
+            <div class="overflow-hidden max-w-7xl mx-auto">
+                <div class="marquee py-3 inline-flex space-x-4 max-w-full items-center *:bg-gradient-to-b *:from-indigo-600 *:via-yellow-600 *:to-pink-600 *:cursor-pointer z-10 " x-data="Marquee({speed: 1, spaceX: 4, dynamicWidthElements: true})">
+                  
+                    <div onclick="url()" class="flex flex-col shrink-0 overflow-hidden">
+                        <img src="./images/icon1.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
+                        <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Ganesha Vàng</span>
+                    </div>
+                    <div onclick="url()" class="flex flex-col shrink-0 overflow-hidden">
+                        <img src="./images/icon2.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
+                        <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Thần Tài</span>
+                    </div>
+                    <div onclick="url()" class="flex flex-col shrink-0 overflow-hidden">
+                        <img src="./images/icon3.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
+                        <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Long Thần</span>
+                    </div>
+                    <div onclick="url()" class="flex flex-col shrink-0 overflow-hidden">
+                        <img src="./images/icon4.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
+                        <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Oẳn Tù Tỳ</span>
+                    </div>
+                    <div onclick="url()" class="flex flex-col shrink-0 overflow-hidden">
+                        <img src="./images/icon5.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
+                        <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Bầu Cua</span>
+                    </div>
+                    <div onclick="url()" class="flex flex-col shrink-0 overflow-hidden">
+                        <img src="./images/icon6.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
+                        <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Xèng Hoa Quả</span>
+                    </div>
+                    <div onclick="url()" class="flex flex-col shrink-0 overflow-hidden">
+                        <img src="./images/icon7.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
+                        <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Bắn Cá</span>
+                    </div>
+                    <div onclick="url()" class="flex flex-col shrink-0 overflow-hidden">
+                        <img src="./images/icon8.png" class="transition duration-500 hover:scale-110 ease-in-out p-3">
+                        <span class="block text-center text-md sm:text-lg font-semibold text-yellow-300 mt-3 py-1.5 border-t border-yellow-400 bg-[#3e87c7]">Trên Dưới</span>
+                    </div>
                 </div>
             </div>
 
@@ -486,7 +548,7 @@
             </div>
 
             <!-- Hồng Đức -->
-            <div class="py-10 border-b flex flex-col md:flex-row gap-3">
+            <div class="py-10 flex flex-col md:flex-row gap-3">
                 <div onclick="url()" class="w-20 md:w-32 rounded-full cursor-pointer">
                     <img src="./images/avatar.jpg" class="rounded-full">
                 </div>
@@ -553,6 +615,8 @@
         </div>
     </div>
 
+    <!-- click to top -->
+    <button onclick="topScroll()" title="Go to top"><ion-icon name="chevron-up-circle-outline" class="fixed bottom-5 right-5 z-50 text-5xl text-yellow-500"></ion-icon></button>
     <script src="./script.js"></script>
 </body>
 </html>
